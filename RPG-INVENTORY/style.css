@@ -8,3 +8,26 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.item-card {
+    padding: 20px;
+    border: 2px solid saddlebrown;
+    color: rgb(34, 19, 0);
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.item-card > {
+    border: 1px solid saddlebrown;
+    color: rgb(110, 59, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-descartar {
+    visibility: hidden;
+}
+
+body {
+    background-color: rgb(209, 196, 160);
+}

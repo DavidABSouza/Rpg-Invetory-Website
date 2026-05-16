@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 }
 
 .item-card {
@@ -29,5 +29,54 @@
 }
 
 body {
-    background-color: rgb(209, 196, 160);
+    background-color: rgb(173, 117, 82);
+}
+
+header {
+   font-size: 100px;
+   color: rgb(77, 38, 10);
+   font-weight: bold; 
+   justify-content: center;
+   text-align: center; 
+}
+
+form {
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(77, 38, 10);
+
+    margin-bottom: auto;
+}
+
+#digite-nome {
+    border: solid 4px saddlebrown;
+    border-radius: 4px;
+    background-color: burlywood;
+    block-size: 50px;
+    width: 20%;
+}
+
+#digite-efeito {
+    border: solid 4px saddlebrown;
+    border-radius: 4px;
+    background-color: burlywood;
+    block-size: 50px;
+    width: 20%;
+    height: 150px;
+}
+
+#adicionar {
+    border: solid 4px saddlebrown;
+    border-radius: 4px;
+    background-color: burlywood;
+    color: rgb(77, 38, 10);
+    block-size: 25px;
+}
+
+::placeholder {
+    color: rgb(77, 38, 10);
 }

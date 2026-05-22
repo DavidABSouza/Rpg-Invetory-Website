@@ -4,16 +4,19 @@ function AdicionarItem(){
     let inputEfeito = document.querySelector("#digite-efeito").value
 
     const Item = document.createElement('div')
+    Item.classList.add("item-card")
 
     const Mochila = document.querySelector(".Container-Mochila")
 
-    Item.classList.add("item-card")
-
     Item.innerHTML = `
             <div>
-            <h3>${inputTitulo}</h3>
-            <p>${inputTexto}</p>
+            <h3>${inputNome}</h3>
+            <p>${inputEfeito}</p>
             </div>
     `
     Mochila.appendChild(Item)
+
+    if(inputNome.includes("Lendário")){
+        Item.classList.add("itemlendario-card")
+    }
 }

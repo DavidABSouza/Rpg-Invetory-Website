@@ -11,12 +11,13 @@
 
 .item-card {
     padding: 20px;
+    margin-top: 10px;
     border: 2px solid saddlebrown;
     color: rgb(34, 19, 0);
-    background-color: antiquewhite;
+    background-color: burlywood;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    transition: all ;
+    transition: all 0.3s ease;
 }
 
 .item-card > {
@@ -25,8 +26,18 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.btn-descartar {
+.btn-deletar {
     visibility: hidden;
+    justify-content: end;
+    height: 20px;
+    width: 100px;
+    color: rgb(77, 38, 10);
+    border: 2px solid saddlebrown;
+    border-radius: 2px;
+    background-color: burlywood;
+    align-self: self-start;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 body {
@@ -90,4 +101,14 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     transition: all 0.3s ease
+}
+
+.item-card:hover {
+    transform: scale(1.05);
+    box-shadow: brown;
+}
+
+.itemlendario-card:hover {
+    transform: scale(1.05);
+    box-shadow: brown;
 }
